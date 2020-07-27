@@ -1,0 +1,39 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:300,600");
+@import url("https://fonts.googleapis.com/css?family=Comfortaa:500");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300");
+
+@font-face {
+	font-family: 'FSRufus';
+	src: url('../fonts/FSRufus.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+$theme-font-header: 'FSRufus', serif;
+$theme-font-body: 'Roboto';
+$theme-font-utility: 'Comfortaa';
+
+
+//  Colors
+$theme-primary: #0062A9;
+$theme-accent: #00AEC7;
+$theme-warn: #E95F47;
+$theme-success: #199C69;
+$theme-disabled: #CAC7C4;
+
+$theme-secondary: #eb9b22;
+$theme-error: #ec4a26;
+
+
+//  Backgrounds
+$theme-bg-dark: #232325;
+$theme-bg-dark-surface: #444;
+
+$theme-bg-light: #EFEFEF;
+$theme-bg-light-surface: #FFF;
+
+
+// Text
+$theme-text-light: #fff;
+$theme-text-dark: #444;
